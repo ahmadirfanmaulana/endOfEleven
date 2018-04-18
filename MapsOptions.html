@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="app"></div>
+
+    <div id="output">
+      <p>
+        From : <span id="from"></span>
+      </p>
+      <p>
+        To : <span id="to"></span>
+      </p>
+      <p>
+        Mode : <span id="travelMode"></span>
+      </p>
+      <p>
+        Distance : <span id="distance"></span>
+      </p>
+      <p>
+        Duration : <span id="duration"></span>
+      </p>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUGY4Pj1Fsg3GJBkyCHv6n6p996I_ywPo&callback=initMap" async defer></script>
+    <script type="text/javascript" src="js/route.js"></script>
+  </body>
+</html>
